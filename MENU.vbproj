@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77A180D8-44A2-4F60-9EF3-E3158421FFF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MENU.My.MyApplication</StartupObject>
+    <RootNamespace>MENU</RootNamespace>
+    <AssemblyName>MENU</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MENU.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MENU.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRMCARACTERCOMBOBOX.designer.vb">
+      <DependentUpon>FRMCARACTERCOMBOBOX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMCARACTERCOMBOBOX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMCONTVOCAL.designer.vb">
+      <DependentUpon>FRMCONTVOCAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMCONTVOCAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMINVERTIR.designer.vb">
+      <DependentUpon>FRMINVERTIR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMINVERTIR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMGRADOS.designer.vb">
+      <DependentUpon>FRMGRADOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMGRADOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMCEDULA.designer.vb">
+      <DependentUpon>FRMCEDULA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMCEDULA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMMAQUETA.designer.vb">
+      <DependentUpon>FRMMAQUETA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMAQUETA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMPAIS.designer.vb">
+      <DependentUpon>FRMPAIS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPAIS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMDATAGRIDVIEW.designer.vb">
+      <DependentUpon>FRMDATAGRIDVIEW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMDATAGRIDVIEW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMIVA.designer.vb">
+      <DependentUpon>FRMIVA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMIVA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMLEERCARACTER2.designer.vb">
+      <DependentUpon>FRMLEERCARACTER2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLEERCARACTER2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMRESTAURANT.designer.vb">
+      <DependentUpon>FRMRESTAURANT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMRESTAURANT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMIMC.designer.vb">
+      <DependentUpon>FRMIMC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMIMC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMTRIANGULO.designer.vb">
+      <DependentUpon>FRMTRIANGULO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMTRIANGULO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMINICIOSESION.designer.vb">
+      <DependentUpon>FRMINICIOSESION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMINICIOSESION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMEDAD.designer.vb">
+      <DependentUpon>FRMEDAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMEDAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.vb">
+      <DependentUpon>menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FRMCARACTERCOMBOBOX.resx">
+      <DependentUpon>FRMCARACTERCOMBOBOX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMCONTVOCAL.resx">
+      <DependentUpon>FRMCONTVOCAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMINVERTIR.resx">
+      <DependentUpon>FRMINVERTIR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMGRADOS.resx">
+      <DependentUpon>FRMGRADOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMCEDULA.resx">
+      <DependentUpon>FRMCEDULA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMAQUETA.resx">
+      <DependentUpon>FRMMAQUETA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPAIS.resx">
+      <DependentUpon>FRMPAIS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMDATAGRIDVIEW.resx">
+      <DependentUpon>FRMDATAGRIDVIEW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMIVA.resx">
+      <DependentUpon>FRMIVA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMLEERCARACTER2.resx">
+      <DependentUpon>FRMLEERCARACTER2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMRESTAURANT.resx">
+      <DependentUpon>FRMRESTAURANT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMIMC.resx">
+      <DependentUpon>FRMIMC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMTRIANGULO.resx">
+      <DependentUpon>FRMTRIANGULO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMINICIOSESION.resx">
+      <DependentUpon>FRMINICIOSESION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMEDAD.resx">
+      <DependentUpon>FRMEDAD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
